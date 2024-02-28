@@ -26,4 +26,4 @@ Uygulamada kullanacağınız MQTT broker bilgilerini CavliLib klasörü içerisi
 
 #define SubscribeTopic			"SubTopic"
 
-Uygulama notuna Documents klasöründe bulabilirsiniz.
+Uygulama notunu Documents klasöründe bulabilirsiniz.
