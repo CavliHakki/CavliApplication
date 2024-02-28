@@ -11,7 +11,7 @@ Uygulamada kullanacağınız MQTT broker bilgilerini CavliLib klasörü içerisi
 
 #define BrokerAddress			  "broker.test.net"
 
-#define BrokerPortNumner		"1883"
+#define BrokerPortNumber		"1883"
 
 #define UserName				    "UserName"
 
