@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CavliC16QSEVK-MQTT-1/CavliC16QSEVK-Demo-MQTT.ioc&apos; to &apos;CavliC16QSEVK-MQTT-1.ioc&apos;" description="Rename resource &apos;CavliC16QSEVK-Demo-MQTT.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="CavliC16QSEVK-Demo-MQTT.ioc" name="CavliC16QSEVK-MQTT-1.ioc" stamp="1709309475671" updateReferences="true"/>
+</session>

@@ -61,8 +61,8 @@ all: main-build
 main-build: CavliC16QSEVK-MQTT-1.elf secondary-outputs
 
 # Tool invocations
-CavliC16QSEVK-MQTT-1.elf CavliC16QSEVK-MQTT-1.map: $(OBJS) $(USER_OBJS) /home/hk/Cavli/CavliC16QSEVK-MQTT-1/STM32G071RBTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "CavliC16QSEVK-MQTT-1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0plus -T"/home/hk/Cavli/CavliC16QSEVK-MQTT-1/STM32G071RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CavliC16QSEVK-MQTT-1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+CavliC16QSEVK-MQTT-1.elf CavliC16QSEVK-MQTT-1.map: $(OBJS) $(USER_OBJS) /home/hk/CavliApplication/CavliC16QSEVK-MQTT-1/STM32G071RBTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "CavliC16QSEVK-MQTT-1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0plus -T"/home/hk/CavliApplication/CavliC16QSEVK-MQTT-1/STM32G071RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CavliC16QSEVK-MQTT-1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
