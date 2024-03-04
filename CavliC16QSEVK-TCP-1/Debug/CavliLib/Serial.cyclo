@@ -1,0 +1,7 @@
+../CavliLib/Serial.c:12:13:C16QS_Serial_Queue_is_empty	2
+../CavliLib/Serial.c:21:13:C16QS_Serial_Enqueue_Queue	2
+../CavliLib/Serial.c:27:6:C16QS_Serial_Dequeue_Queue	3
+../CavliLib/Serial.c:36:9:C16QS_Serial_Front_of_Queue	1
+../CavliLib/Serial.c:42:6:C16QS_Serial_Flush_Queue	1
+../CavliLib/Serial.c:47:10:C16QS_Serial_Get_Item_Count_in_Queue	2
+../CavliLib/Serial.c:54:6:C16QS_Get_Data_Byte	1

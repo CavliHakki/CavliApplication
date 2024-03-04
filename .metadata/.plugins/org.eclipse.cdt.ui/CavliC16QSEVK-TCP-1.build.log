@@ -1,0 +1,10 @@
+12:38:44 **** Incremental Build of configuration Debug for project CavliC16QSEVK-TCP-1 ****
+make -j20 all 
+arm-none-eabi-size  CavliC16QSEVK-TCP-1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25320	    100	   4108	  29528	   7358	CavliC16QSEVK-TCP-1.elf
+Finished building: default.size.stdout
+ 
+
+12:38:44 Build Finished. 0 errors, 0 warnings. (took 123ms)
+
