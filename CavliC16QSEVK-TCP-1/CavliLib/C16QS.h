@@ -13,7 +13,7 @@
 #include "string.h"
 
 /* TCP Informations */
-#define DestinationIP			"85.100.114.105"
+#define DestinationIP			"111.222.333.444"
 #define DestinationPort			(5555)
 
 extern uint8_t SessionID;
