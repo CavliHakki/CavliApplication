@@ -11,17 +11,17 @@ Uygulamada kullanacağınız MQTT broker bilgilerini CavliLib klasörü içerisi
 
 /* MQTT Broker Informations */
 ```c
-#define BrokerAddress			  "broker.test.net"
+#define BrokerAddress			"broker.test.net"
 
 #define BrokerPortNumber		"1883"
 
-#define UserName				    "UserName"
+#define UserName			"UserName"
 
-#define Password				    "123456"
+#define Password			"123456"
 
-#define ClientID				    "TEST"
+#define ClientID			"TEST"
 
-#define LastWillTopic			  "LWT"
+#define LastWillTopic			"LWT"
 
 #define LastWillMessage			"LWM"
 
