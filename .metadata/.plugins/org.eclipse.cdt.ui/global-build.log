@@ -1,28 +1,22 @@
-12:38:35 **** Incremental Build of configuration Debug for project CavliC16QSEVK-TCP-1 ****
+15:45:42 **** Incremental Build of configuration Debug for project CavliC16QSEVK-GPIO7-1 ****
 make -j20 all 
-arm-none-eabi-gcc "../CavliLib/C16QS.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I"/home/hk/CavliApplication/CavliC16QSEVK-TCP-1/CavliLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"CavliLib/C16QS.d" -MT"CavliLib/C16QS.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "CavliLib/C16QS.o"
-arm-none-eabi-gcc -o "CavliC16QSEVK-TCP-1.elf" @"objects.list"   -mcpu=cortex-m0plus -T"/home/hk/CavliApplication/CavliC16QSEVK-TCP-1/STM32G071RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CavliC16QSEVK-TCP-1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: CavliC16QSEVK-TCP-1.elf
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I"/home/hk/CavliApplication/CavliC16QSEVK-GPIO7-1/CavliLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../CavliLib/C16QS.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I"/home/hk/CavliApplication/CavliC16QSEVK-GPIO7-1/CavliLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"CavliLib/C16QS.d" -MT"CavliLib/C16QS.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "CavliLib/C16QS.o"
+arm-none-eabi-gcc -o "CavliC16QSEVK-GPIO7-1.elf" @"objects.list"   -mcpu=cortex-m0plus -T"/home/hk/CavliApplication/CavliC16QSEVK-GPIO7-1/STM32G071RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CavliC16QSEVK-GPIO7-1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CavliC16QSEVK-GPIO7-1.elf
  
-arm-none-eabi-size  CavliC16QSEVK-TCP-1.elf 
-arm-none-eabi-objdump -h -S CavliC16QSEVK-TCP-1.elf  > "CavliC16QSEVK-TCP-1.list"
+arm-none-eabi-size  CavliC16QSEVK-GPIO7-1.elf 
+arm-none-eabi-objdump -h -S CavliC16QSEVK-GPIO7-1.elf  > "CavliC16QSEVK-GPIO7-1.list"
    text	   data	    bss	    dec	    hex	filename
-  25320	    100	   4108	  29528	   7358	CavliC16QSEVK-TCP-1.elf
+  21652	    100	   4108	  25860	   6504	CavliC16QSEVK-GPIO7-1.elf
 Finished building: default.size.stdout
  
-Finished building: CavliC16QSEVK-TCP-1.list
+Finished building: CavliC16QSEVK-GPIO7-1.list
  
-12:38:42 **** Incremental Build of configuration Debug for project CavliC16QSEVK-TCP-1 ****
+15:46:43 **** Incremental Build of configuration Debug for project CavliC16QSEVK-GPIO7-1 ****
 make -j20 all 
-arm-none-eabi-size  CavliC16QSEVK-TCP-1.elf 
+arm-none-eabi-size  CavliC16QSEVK-GPIO7-1.elf 
    text	   data	    bss	    dec	    hex	filename
-  25320	    100	   4108	  29528	   7358	CavliC16QSEVK-TCP-1.elf
-Finished building: default.size.stdout
- 
-12:38:44 **** Incremental Build of configuration Debug for project CavliC16QSEVK-TCP-1 ****
-make -j20 all 
-arm-none-eabi-size  CavliC16QSEVK-TCP-1.elf 
-   text	   data	    bss	    dec	    hex	filename
-  25320	    100	   4108	  29528	   7358	CavliC16QSEVK-TCP-1.elf
+  21652	    100	   4108	  25860	   6504	CavliC16QSEVK-GPIO7-1.elf
 Finished building: default.size.stdout
  

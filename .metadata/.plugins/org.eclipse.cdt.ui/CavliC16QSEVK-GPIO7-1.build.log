@@ -1,0 +1,10 @@
+15:46:43 **** Incremental Build of configuration Debug for project CavliC16QSEVK-GPIO7-1 ****
+make -j20 all 
+arm-none-eabi-size  CavliC16QSEVK-GPIO7-1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21652	    100	   4108	  25860	   6504	CavliC16QSEVK-GPIO7-1.elf
+Finished building: default.size.stdout
+ 
+
+15:46:43 Build Finished. 0 errors, 0 warnings. (took 119ms)
+

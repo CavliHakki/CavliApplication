@@ -648,3 +648,41 @@ java.lang.IllegalStateException: Call stack for thread main
 
 !ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-03-04 12:33:46.913
 !MESSAGE Existing sessions are:
+!SESSION 2024-03-06 15:17:20.558 -----------------------------------------------
+eclipse.buildId=Version 1.14.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-03-06 15:17:25.946
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-03-06 15:17:25.947
+!MESSAGE Log4j2 initialized with config file /home/hk/CavliApplication/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-03-06 15:17:27.919
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-03-06 15:17:53.461
+!MESSAGE Indexed 'CavliC16QSEVK-GPIO7-1' (27 sources, 153 headers) in 3.06 sec: 13,845 declarations; 55,036 references; 3 unresolved inclusions; 26 syntax errors; 171 unresolved names (0.25%)
+
+!ENTRY org.eclipse.core.resources 4 77 2024-03-06 15:17:54.894
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-03-06 15:17:54.894
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-03-06 15:17:54.894
+!MESSAGE /home/hk/CavliApplication/CavliC16QSEVK-GPIO7-1 overlaps the location of another project: 'CavliC16QSEVK-GPIO7-1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-03-06 15:17:54.895
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-03-06 15:18:00.645
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-03-06 15:18:00.645
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-03-06 15:18:00.645
+!MESSAGE /home/hk/CavliApplication/CavliC16QSEVK-GPIO7-1 overlaps the location of another project: 'CavliC16QSEVK-GPIO7-1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-03-06 15:18:00.645
+!MESSAGE Project is null

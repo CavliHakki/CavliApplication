@@ -1,0 +1,12 @@
+../CavliLib/C16QS.c:12:6:PowerKeyControl	2
+../CavliLib/C16QS.c:20:6:PowerKeyFunction	1
+../CavliLib/C16QS.c:26:6:RstKeyControl	2
+../CavliLib/C16QS.c:34:6:ResetKeyFunction	1
+../CavliLib/C16QS.c:40:6:Echo_Disable	1
+../CavliLib/C16QS.c:49:6:Clear_Buffer	2
+../CavliLib/C16QS.c:56:13:Alive_Control	3
+../CavliLib/C16QS.c:82:13:Control_OK_Message	2
+../CavliLib/C16QS.c:91:15:GPIO7_Status_Control	2
+../CavliLib/C16QS.c:116:15:Control_GPIO7_Status_Message	3
+../CavliLib/C16QS.c:131:13:GPIO7_Set	5
+../CavliLib/C16QS.c:163:6:C16QS_GPIO7_Sequence	14
