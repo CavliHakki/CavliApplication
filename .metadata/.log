@@ -686,3 +686,18 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-03-06 15:18:00.645
 !MESSAGE Project is null
+!SESSION 2024-03-12 12:44:37.839 -----------------------------------------------
+eclipse.buildId=Version 1.14.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-03-12 12:44:51.190
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-03-12 12:44:51.191
+!MESSAGE Log4j2 initialized with config file /home/hk/CavliApplication/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-03-12 12:44:55.669
+!MESSAGE Started RMI Server, listening on port 41337
