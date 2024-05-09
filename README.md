@@ -86,6 +86,11 @@ Arduno ile kullanımda Cavli C16QS EVK kartı üzerinde bulunan J12 jumper'ları
 Bu uygulamada C16QS modülünün GPIO7 output pini 1sn aralıklar ile high ve low yapılmıştır. Bu pin çıkışı 1.8VDC olduğundan dolayı
 bir LED sürmek için veya başka bir amaçta kullanım için transistör kullanılarak anahtarlama yapılması gerekmektedir.
 
-Ugulama ile ilgili Uygulama Notu dokümanını Dokumanlar klasöründe bulabilirsiniz.
+Uygulama ile ilgili Uygulama Notu dokümanını Dokumanlar klasöründe bulabilirsiniz.
 
+## ArduinoC16QS-GNSS
+Bu uygulamada C16QS modülünün dahili GPS özelliği kullanılarak GNSS bilgileri Arduino Uno donanımsal seri portuna gönderilmiştir.
+Bu uygulamayı çalıştırmak için C16QS EVK boardunuza GNSS anteni takmalısınız. 
+
+Uygulama ile ilgili Uygulama Notu dokümanını Dokumanlar klasöründe bulabilirsiniz.
 
